@@ -27,9 +27,11 @@ This ledger separates verified external contribution from repository access, for
 ### gauchonico/sikuulu and Dradebo/sikuulu
 
 - External collaboration access and a same-named account-owned repository both exist.
-- The relationship between the copies and personal authorship has not been established.
+- A direct comparison of `main` against `main` found the repositories identical: zero commits ahead, zero behind, and the same tip commit.
+- The account-owned copy therefore contains no independent divergence to showcase.
+- The underlying working relationship and authorship of the shared history remain unverified.
 
-**Status:** Attribution review.
+**Status:** Identical mirror; relationship verification still required.
 
 ### Dradebo/Report-builder
 
