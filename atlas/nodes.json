@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": "Dradebo",
+  "repositoryCensus": {
+    "ownedVisible": 690,
+    "publicAtlasNodes": 36,
+    "constellations": 12
+  },
+  "relationshipDefinitions": {
+    "owned": "Project owned or led by Dradebo; production readiness is assessed separately.",
+    "contributed": "Externally owned work supported by public authorship evidence.",
+    "adapted": "Fork with verified changes attributable to Dradebo.",
+    "observed": "Upstream project retained for study, testing, comparison, or possible integration."
+  },
+  "nodes": [
+    {"constellation":"Agents that can operate","repository":"Dradebo/dhis2-mcp","relationship":"owned"},
+    {"constellation":"Agents that can operate","repository":"Dradebo/letta","relationship":"observed"},
+    {"constellation":"Agents that can operate","repository":"Dradebo/UI-TARS","relationship":"observed","upstream":"bytedance/UI-TARS"},
+    {"constellation":"Memory, archives, and personal knowledge","repository":"Dradebo/PAWs","relationship":"owned"},
+    {"constellation":"Memory, archives, and personal knowledge","repository":"Dradebo/personal-lore-showcase","relationship":"owned"},
+    {"constellation":"Memory, archives, and personal knowledge","repository":"Dradebo/ArchiveBox","relationship":"observed","upstream":"ArchiveBox/ArchiveBox","forkComparison":{"ahead":0,"behind":1170,"status":"behind"}},
+    {"constellation":"Audio, voice, and accessible production","repository":"Dradebo/zrythm","relationship":"observed"},
+    {"constellation":"Audio, voice, and accessible production","repository":"Dradebo/voicebox","relationship":"observed"},
+    {"constellation":"Audio, voice, and accessible production","repository":"Dradebo/Scriberr","relationship":"observed"},
+    {"constellation":"Creative AI as an instrument","repository":"Dradebo/tldraw","relationship":"observed"},
+    {"constellation":"Creative AI as an instrument","repository":"Dradebo/make-real","relationship":"observed"},
+    {"constellation":"Creative AI as an instrument","repository":"Dradebo/remotion","relationship":"observed"},
+    {"constellation":"Simulated worlds and playable information","repository":"Dradebo/retro-match-renderer","relationship":"owned"},
+    {"constellation":"Simulated worlds and playable information","repository":"Dradebo/tiny-world-builder","relationship":"owned"},
+    {"constellation":"Simulated worlds and playable information","repository":"Dradebo/soccerdata","relationship":"observed"},
+    {"constellation":"Low-cost robotics and physical interfaces","repository":"Dradebo/lerobot","relationship":"observed"},
+    {"constellation":"Low-cost robotics and physical interfaces","repository":"Dradebo/OpenArm","relationship":"observed","upstream":"enactic/openarm"},
+    {"constellation":"Low-cost robotics and physical interfaces","repository":"Dradebo/Watchy","relationship":"observed"},
+    {"constellation":"Ambient sensing and measurable environments","repository":"Dradebo/Mindful-Metrics","relationship":"owned"},
+    {"constellation":"Ambient sensing and measurable environments","repository":"Dradebo/Motion-detecting-system-using-Wi-Fi-CSI-signals","relationship":"observed","risk":"surveillance-sensitive"},
+    {"constellation":"Ambient sensing and measurable environments","repository":"Dradebo/raspberry-pi-5-hailo-8-pothole-detection-system","relationship":"observed"},
+    {"constellation":"DHIS2 and public-service infrastructure","repository":"Dradebo/dhis2Sync","relationship":"owned"},
+    {"constellation":"DHIS2 and public-service infrastructure","repository":"Dradebo/Results-Wizard","relationship":"owned"},
+    {"constellation":"DHIS2 and public-service infrastructure","repository":"HISP-Uganda/simpleDataEntry","relationship":"contributed","evidence":["PR #1","PR #2"]},
+    {"constellation":"Local ownership and self-hosted infrastructure","repository":"Dradebo/Olares","relationship":"observed","upstream":"beclab/Olares"},
+    {"constellation":"Local ownership and self-hosted infrastructure","repository":"Dradebo/vaultwarden","relationship":"observed"},
+    {"constellation":"Local ownership and self-hosted infrastructure","repository":"Dradebo/uptime-kuma","relationship":"observed"},
+    {"constellation":"Offline education and knowledge access","repository":"Dradebo/learnhouse","relationship":"observed"},
+    {"constellation":"Offline education and knowledge access","repository":"Dradebo/Local-NotebookLM","relationship":"observed"},
+    {"constellation":"Offline education and knowledge access","repository":"Dradebo/project-based-learning","relationship":"observed"},
+    {"constellation":"Small-business operating systems","repository":"Dradebo/Lawrebac-auto-garage","relationship":"owned"},
+    {"constellation":"Small-business operating systems","repository":"Dradebo/OpensourcePOS","relationship":"observed"},
+    {"constellation":"Small-business operating systems","repository":"Dradebo/SolidInvoice","relationship":"observed"},
+    {"constellation":"Media extraction, preservation, and transformation","repository":"Dradebo/tubearchivist","relationship":"observed"},
+    {"constellation":"Media extraction, preservation, and transformation","repository":"Dradebo/Stirling-PDF","relationship":"observed"},
+    {"constellation":"Media extraction, preservation, and transformation","repository":"Dradebo/Paper2Video","relationship":"observed"}
+  ],
+  "verificationQueue": [
+    {"repository":"LordHafa/shosa-platform","reason":"Access and meaningful work are visible, but current evidence does not establish Dradebo authorship."},
+    {"repository":"gauchonico/sikuulu","reason":"External collaboration relationship and same-named owned repository require reconciliation."},
+    {"repository":"Dradebo/Report-builder","reason":"Generic scaffold does not establish upstream relationship or contribution history."}
+  ]
+}
